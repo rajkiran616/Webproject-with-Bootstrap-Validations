@@ -1,0 +1,21 @@
+.modal-wide {
+  overflow:visible;
+  width: 650px;
+}
+ 
+.modal-builder .control-label {
+      padding:0 !important;
+      font-weight:bold;
+}
+ 
+ /* In case you use a span.required-star
+  * with title="required field", I don't want to
+  * have them in modal
+  **/
+.modal-builder  .required-star {
+    display:none;
+}
+ 
+.modal-builder .hide-in-confirm {
+  display:none !important;
+}
